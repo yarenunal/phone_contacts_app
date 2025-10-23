@@ -1,0 +1,50 @@
+name: phone_contacts_app
+description: "A Flutter phone contacts app with provider and Lottie animations."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.9.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+   
+
+  # State management
+  provider: ^6.1.5+1
+
+  # UI
+  cupertino_icons: ^1.0.8
+  lottie: ^2.4.0
+  flutter_slidable: ^4.0.3
+  cached_network_image: ^3.2.3
+  palette_generator: ^0.3.3+7
+
+  # Network & APIs
+  http: ^1.1.0
+  contacts_service: ^0.6.3
+
+  # Local storage
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+  # Utilities
+  image_picker: ^1.1.0
+  uuid: ^4.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Assets
+  assets:
+    - assets/lottie/  # Lottie animasyon json dosyaları
+    - assets/images/   # Uygulama görselleri, avatarlar vs.
+
+
