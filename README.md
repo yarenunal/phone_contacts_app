@@ -1,4 +1,3 @@
 # phone_contacts_app
-
-https://youtu.be/PMgMaM40GD0
+Uygulamanın ekran kaydı: https://youtu.be/PMgMaM40GD0
 
